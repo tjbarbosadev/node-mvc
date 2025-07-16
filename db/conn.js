@@ -17,7 +17,4 @@ export const testConnection = async () => {
   }
 };
 
-// Testa a conexão ao iniciar (opcional)
-testConnection();
-
 export default sequelize;
