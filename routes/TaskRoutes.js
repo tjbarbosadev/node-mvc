@@ -3,7 +3,9 @@ import TaskController from '../controllers/TaskController.js';
 
 const taskRouter = express.Router();
 
-taskRouter.get('/', TaskController.showTasks);
 taskRouter.get('/add', TaskController.createTask);
+taskRouter.post('/add', TaskController.createTaskSave);
+
+taskRouter.get('/', TaskController.showTasks);
 
 export default taskRouter;
