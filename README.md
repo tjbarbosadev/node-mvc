@@ -23,9 +23,10 @@ Usaremos:
 - **sequelize** para conexão com banco de dados
 - **mysql2** para usar o MySql junto com o **sequelize**
 - **nodemon** para ambiente de dev
+- **dotenv** para os dados do banco
 
 ```javascript
-npm install express express-handlebars sequelize mysql2 nodemon
+npm install express express-handlebars sequelize mysql2 nodemon dotenv
 ```
 
 ## Estrutura
